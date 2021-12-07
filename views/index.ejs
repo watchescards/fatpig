@@ -8,10 +8,35 @@
 
 /* social media */
 
+.p{
+    margin:0 0 4px;
+}
+@media (min-width: 1024px) {
+    .mob-div{
+    margin-top:-50px;
+}
+.mob-divs{
+    margin-left: 200px;
+}
+}
+@media only screen and (max-width: 600px) {
+    .mob-div{
+    margin-top:-150px;
+    margin-left: -100px;
+    height:200px;
+    width:300px
 
+}
+.mob-divs{
+    margin-top:-150px;
+    margin-left: -500px;
+    height:200px;
+    width:300px
+}
+}
 
   .accordion{
-    height: 50px;
+    height: 67px;
     width: 500px;
     margin-top: 20px;
     background-color: #8B00FF;
@@ -902,7 +927,7 @@ border-radius:10px 10px  0 0 ;
                             <div class="stm_mobile__logo">
                                 <a href="#" title="Home">
                                     <!-- <img src="../logo.jpeg" width="150px" height="150px"> -->
-                                    <img src="../logo.jpeg" alt="Site Logo" width="50px" height="50px"/>
+                                    <img src="../logo.png" alt="Site Logo" width="50px" height="50px"/>
                                 </a>
                             </div>
                             <div class="stm_mobile__switcher stm_flex_last js_trigger__click" data-element=".stm-header, .stm-header__overlay" data-toggle="false">
@@ -1322,7 +1347,7 @@ border-radius:10px 10px  0 0 ;
 #BA-chart-job-error {margin: 0 auto;}
 </style>
 <div class="chart-inner">
-	<canvas id="BA-chart-job-error" width="800" height="600"></canvas>
+	<canvas id="BA-chart-job-error" width="300" height="400"></canvas>
 </div>
 <div style="margin-bottom: 100px;">
 
@@ -1363,7 +1388,7 @@ border-radius:10px 10px  0 0 ;
                                                                             <ul>
                                                                                 <div class="column wpb_row" style="flex-direction: row;">
                                                                                     <div>
-                                                                                        <img src="../anim.gif" height="120px" width="120px">  
+                                                                                        <img src="../anim.gif" class="mob-divs" height="120px" width="120px">  
 
                                                                                     </div>
                                                                                     <div>
@@ -1388,7 +1413,7 @@ border-radius:10px 10px  0 0 ;
                                                         </div>
                                                         <div style="margin-left: 200px; margin-top: 150px;">
                                                           <!-- <span style="margin-left: 200px; margin-top: 50px;">animation_1 here</span> -->
-                                                          <img src="../anim-1.gif" style="margin-top: -50px;">
+                                                          <img src="../anim-1.gif" class="mob-div">
                                                         </div>
                                                         <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                                                             <div class="vc_column-inner vc_custom_1633237646890">
@@ -2034,7 +2059,7 @@ border-radius:10px 10px  0 0 ;
                                                                             <p>
                                                                                 <strong>
                                                                                     <!-- <span>Hiiii</span> -->
-                                                                                    <img src="../anim.gif" style="margin-left: 200px;"> 
+                                                                                    <img src="../anim.gif" class="mob-divs"> 
                                                                                     <!-- <span data-preserver-spaces="true">We will move some of our liquidity to our Partnered Tokens by buying them on certain contract interactions using a unique set of smart contracts for Staking Pools. The acquired tokens are subsequently divided to the Pool's participants. This approach lends our currency its long-term utility, as it makes economic and mathematical sense to stake X token to gain Y token.</span> -->
                                                                                 </strong>
                                                                             </p>
@@ -2157,10 +2182,10 @@ border-radius:10px 10px  0 0 ;
         <div class="">
             <div>
           </div>
-          <h2 class="" style="text-align: left;color: crimson;"> <div>
-            </div>
-            <img src="../buy1.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;"> Download & setup MetaMask or TrustWallet<br>
-            <p style="text-align: left; color: #fff;margin-left: 90px;font-size: 18px;margin-top: -50px;">Download MetaMask (a crypto wallet in form of a browser extension) or TrustWallet (an app for your phone). After that you will have to add the Binance Smart Chain to your network-list. (Click here for a step-by-step tutorial)
+          <img src="../buy1.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">
+          <h2 class="" style="text-align: center;color: crimson;"> 
+            Download & setup MetaMask or TrustWallet<br>
+            <p style="text-align: center; color: #fff;margin-left: 0px;font-size: 18px;margin-top: 0px;">Download MetaMask (a crypto wallet in form of a browser extension) or TrustWallet (an app for your phone). After that you will have to add the Binance Smart Chain to your network-list. (Click here for a step-by-step tutorial)
             </p>
         </h2>
         
@@ -2172,10 +2197,10 @@ border-radius:10px 10px  0 0 ;
         <div class="">
             <div>
           </div>
-          <h2 class="" style="text-align: left;color: crimson;"> <div>
-            </div>
-            <img src="../2-1.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;"> Buy and send BNB to MetaMask<br>
-            <p style="text-align: left; color: #fff;margin-left: 90px;font-size: 18px;margin-top: -50px;">Buy BNB on an exchange (i.e. Binance, Kraken, Coinbase etc.). Transfer the tokens to your MetaMask wallet address. BEP-20 addresses start with a "0x"
+          <img src="../2-1.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">
+          <h2 class="" style="text-align: center;color: crimson;"> 
+            Buy and send BNB to MetaMask<br>
+            <p style="text-align: center; color: #fff;margin-left: 0px;font-size: 18px;margin-top: 0px;">Buy BNB on an exchange (i.e. Binance, Kraken, Coinbase etc.). Transfer the tokens to your MetaMask wallet address. BEP-20 addresses start with a "0x"
             </p>
         </h2>
       </div>
@@ -2185,10 +2210,10 @@ border-radius:10px 10px  0 0 ;
         <div class="">
             <div>
           </div>
-          <h2 class="" style="text-align: left;color: crimson;"> <div>
-            </div>
-            <img src="../3.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">Head on to PancakeSwap and swap for $HOL<br>
-            <p style="text-align: left; color: #fff;margin-left: 90px;font-size: 18px;margin-top: -50px;">Click here to head on over to PancakeSwap or use this address 0x7b8656c95944f1d6e2e6deadedd0392a4138d8ddto select HOLIDAYTOKEN. Set the slippage tolerance to 18% (sometimes it may be a bit more, depending on how much demand there is)
+          <img src="../3.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">
+          <h2 class="" style="text-align: center;color: crimson;"> 
+           Head on to PancakeSwap and swap for $HOL<br>
+           <p style="text-align: center; color: #fff;margin-left: 0px;font-size: 18px;margin-top: 0px;">Click here to head on over to PancakeSwap or use this address 0x7b8656c95944f1d6e2e6deadedd0392a4138d8ddto select HOLIDAYTOKEN. Set the slippage tolerance to 18% (sometimes it may be a bit more, depending on how much demand there is)
             </p>
         </h2>
       </div>
@@ -2198,13 +2223,14 @@ border-radius:10px 10px  0 0 ;
       <div class="row" style="flex-direction: row;">
         <div class="">
             <div>
+                <img src="../4.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">
           </div>
-          <h2 class="" style="text-align: left;color: crimson;"> <div>
-            </div>
-            <img src="../4.png" height="80px" width="80px" style="margin-top: 90px;border-radius: 50px;">View $HOL and HODL<br>
-            <p style="text-align: left; color: #fff;margin-left: 90px;font-size: 18px;margin-top: -50px;">Swap BNB for HOLIDAYTOKEN. Now you need to add HOLIDAYTOKEN to your MetaMask (Tutorial here) or Trust Wallet to view your $HOL. Lastly HODL!
+          <h2 class="" style="text-align: center;color: crimson;"> 
+           View $HOL and HODL
+        </h2><br>
+            <p style="text-align: center; color: #fff;margin-left: 0px;font-size: 18px;margin-top: 0px;">Swap BNB for HOLIDAYTOKEN. Now you need to add HOLIDAYTOKEN to your MetaMask (Tutorial here) or Trust Wallet to view your $HOL. Lastly HODL!
             </p>
-        </h2>
+   
       </div>
       </div>
 
@@ -2615,7 +2641,7 @@ border-radius:10px 10px  0 0 ;
 
 <div>
   <div class="accordion">
-    <p class="title">What is FATBULL Token?</p>
+    <p class="title" style="padding:5px;">What is FATBULL Token?</p>
     <span class="show">+</span>
 </div>
 <div class="info" style="background-color: #fff;">
@@ -2652,7 +2678,7 @@ border-radius:10px 10px  0 0 ;
                       
                       
                       <div class="accordion">
-                        <p class="title">Are there external exchange listings planned?</p>
+                        <p class="title"  style="padding:5px;margin-top:10px">Are there external exchange listings planned?</p>
                         <span class="show">+</span>
                       </div>
                       <div class="info">
@@ -2665,7 +2691,7 @@ border-radius:10px 10px  0 0 ;
 
                                             <div>
                                               <div class="accordion">
-                                                <p class="title">Why hasn't the team doxxed themselves yet?</p>
+                                                <p class="title" style="padding:5px;margin-top:10px">Why hasn't the team doxxed themselves yet?</p>
                                                 <span class="show">+</span>
                                             </div>
                                             <div class="info">
@@ -2693,7 +2719,7 @@ border-radius:10px 10px  0 0 ;
 
                                                                   <div>
                                                                     <div class="accordion">
-                                                                      <p class="title">Is there a way to see past and current rewards?</p>
+                                                                      <p class="title" style="padding:5px;margin-top:10px">Is there a way to see past and current rewards?</p>
                                                                       <span class="show">+</span>
                                                                   </div>
                                                                   <div class="info">
@@ -2704,7 +2730,7 @@ border-radius:10px 10px  0 0 ;
                                                                   
                                                                   
                                                                   <div class="accordion">
-                                                                    <p class="title">What kind of marketing will be done for FAT BULL </p>
+                                                                    <p class="title" style="padding:5px;margin-top:10px">What kind of marketing will be done for FAT BULL </p>
                                                                     <span class="show">+</span>
                                                                   </div>
                                                                   <div class="info">
