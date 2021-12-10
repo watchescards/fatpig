@@ -631,9 +631,13 @@ border-radius:10px 10px  0 0 ;
         <div id="fullpage" class="content_wrapper">
             <header id="header">
                 <style type="text/css" id="styles-stm_hb_settings">
-                @media (max-width: 1023px) and(min-width: 425px) {
+                @media (max-width: 1023px) {
                     .stm-header__element.object246 {
                         order: -2100
+                    }
+
+                    .onlyweb{
+                        display: none;
                     }
                 }
 
@@ -641,7 +645,22 @@ border-radius:10px 10px  0 0 ;
                     .stm-header__element.object246 {
                         order: -2100
                     }
+
+                    .onlyweb{
+                        display: visible;
+                    }
                 }
+
+
+                @media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
+}
 
                 .stm-header__element.object246 {
                 }
@@ -914,6 +933,16 @@ border-radius:10px 10px  0 0 ;
                                                 </div>
                                               </div>
                                           </div>
+
+                                          <div class="stm-dropdown stm-dropdown_style_1" style="margin-left: 50px;">
+                                            <div class="dropdown">
+                                            <div class="dropdown-toggle stm_hb_mbc" id="ljXbMnTyoQ" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" type="button">
+                                            Eng </div>
+                                            <ul class="dropdown-list stm_hb_mbc" aria-labelledby="ljXbMnTyoQ">
+                                          
+                                            </ul>
+                                            </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
@@ -1035,6 +1064,12 @@ border-radius:10px 10px  0 0 ;
                                                                     
                                                                      
                                                                       </div>
+
+
+                                                                      <div class="phoneContent">
+                                                                        <img src="../bg-m.gif" width="450px" height="450px">
+                                                                        <!-- <span>animation_0 here</span> -->
+                                                                                </div>
                                                                     </section>
                                                                    
                                                                     <div class="stm-spacing" id="stm-spacing-619fc0ce02838"></div>
