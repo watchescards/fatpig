@@ -21,10 +21,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
+app.get('/dapp', function(req, res, next) {
+  res.render('dapp', { title: 'Express' });
+});
+app.get('/dashboard', function(req, res, next) {
+  res.render('dapp', { title: 'Express' });
+});
+app.get('/dividend', function(req, res, next) {
+  res.render('dapp', { title: 'Express' });
+});
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404));
+  // next(createError(404));
 });
 
 // error handler
@@ -37,6 +45,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 app.listen(3000)
 
